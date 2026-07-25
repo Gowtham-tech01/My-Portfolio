@@ -5,8 +5,8 @@ import { Reveal, SectionHeading } from '@/components/reveal'
 
 const certificates = [
   {
-    title: 'Full Stack Web Development',
-    issuer: 'Udemy',
+    title: 'Introduction to Front-End Development',
+    issuer: 'Meta Front-End Developer Professional Certificate',
     year: '2024',
   },
   {
@@ -25,8 +25,8 @@ const certificates = [
     year: '2023',
   },
   {
-    title: 'Python Programming',
-    issuer: 'HackerRank',
+    title: 'Crash Course on Python',
+    issuer: 'Google',
     year: '2023',
   },
   {
