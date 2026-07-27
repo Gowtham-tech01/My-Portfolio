@@ -10,7 +10,7 @@ const profiles = [
     name: 'GitHub',
     handle: '@gowtham-s',
     icon: GithubIcon,
-    href: 'https://github.com/gowtham-s',
+    href: 'https://github.com/Gowtham-tech01',
     accent: 'from-primary to-accent',
     stats: [
       { label: 'Repositories', value: '40+' },
@@ -22,10 +22,10 @@ const profiles = [
     name: 'LeetCode',
     handle: '@gowtham_s',
     icon: Code,
-    href: 'https://leetcode.com/gowtham-s',
+    href: 'https://leetcode.com/u/Gowtham__55/',
     accent: 'from-chart-3 to-primary',
     stats: [
-      { label: 'Problems Solved', value: '450+' },
+      { label: 'Problems Solved', value: '250+' },
       { label: 'Contest Rating', value: '1750' },
       { label: 'Global Rank', value: 'Top 15%' },
     ],
@@ -34,7 +34,7 @@ const profiles = [
     name: 'CodeChef',
     handle: '@gowtham_s',
     icon: Trophy,
-    href: 'https://codechef.com/users/gowtham-s',
+    href: 'https://www.codechef.com/users/gowtham_555',
     accent: 'from-accent to-chart-4',
     stats: [
       { label: 'Rating', value: '1650' },
