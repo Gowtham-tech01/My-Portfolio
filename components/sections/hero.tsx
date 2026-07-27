@@ -5,8 +5,8 @@ import { ArrowDown, Mail, Download } from 'lucide-react'
 import { GithubIcon, LinkedinIcon } from '@/components/brand-icons'
 
 const socials = [
-  { icon: GithubIcon, href: 'https://github.com/gowtham-s', label: 'GitHub' },
-  { icon: LinkedinIcon, href: 'https://linkedin.com/in/gowtham-s', label: 'LinkedIn' },
+  { icon: GithubIcon, href: 'https://github.com/Gowtham-tech01', label: 'GitHub' },
+  { icon: LinkedinIcon, href: 'https://linkedin.com/in/gowtham-sundarrajan', label: 'LinkedIn' },
   { icon: Mail, href: '#contact', label: 'Email' },
 ]
 
