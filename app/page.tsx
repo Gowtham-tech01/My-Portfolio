@@ -1,5 +1,5 @@
 import { Loader } from '@/components/loader'
-import { CustomCursor } from '@/components/custom-cursor'
+// import { CustomCursor } from '@/components/custom-cursor'
 import { AnimatedBackground } from '@/components/animated-background'
 import { Navbar } from '@/components/navbar'
 import { Hero } from '@/components/sections/hero'
@@ -16,9 +16,10 @@ export default function Page() {
   return (
     <>
       <Loader />
-      <CustomCursor />
+      {/* <CustomCursor /> */}
       <AnimatedBackground />
       <Navbar />
+
       <main className="relative">
         <Hero />
         <About />
@@ -29,6 +30,7 @@ export default function Page() {
         <CodingProfiles />
         <Contact />
       </main>
+
       <Footer />
     </>
   )

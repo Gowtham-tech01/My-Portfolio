@@ -26,6 +26,7 @@ export function Hero() {
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
           <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
         </span>
+
         <span className="font-mono text-xs text-muted-foreground">
           Available for opportunities
         </span>
@@ -82,6 +83,7 @@ export function Hero() {
           View My Work
           <ArrowDown className="h-4 w-4" />
         </a>
+
         <a
           href="/resume.pdf"
           download="Gowtham-S-Resume.pdf"
@@ -92,11 +94,12 @@ export function Hero() {
         </a>
       </motion.div>
 
+      {/* Social Icons */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.7, delay: 2.65 }}
-        className="mt-10 flex items-center gap-3"
+        className="relative z-20 mt-10 flex items-center gap-3"
       >
         {socials.map((s) => (
           <a
@@ -105,18 +108,19 @@ export function Hero() {
             target={s.href.startsWith('http') ? '_blank' : undefined}
             rel="noreferrer"
             aria-label={s.label}
-            className="flex h-11 w-11 items-center justify-center rounded-xl glass text-muted-foreground transition-all hover:scale-110 hover:text-primary"
+            className="relative z-20 flex h-11 w-11 items-center justify-center rounded-xl glass text-muted-foreground transition-all hover:scale-110 hover:text-primary"
           >
             <s.icon className="h-5 w-5" />
           </a>
         ))}
       </motion.div>
 
+      {/* Scroll Indicator */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 3 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
+        className="pointer-events-none absolute bottom-8 left-1/2 -translate-x-1/2"
       >
         <motion.div
           animate={{ y: [0, 8, 0] }}
