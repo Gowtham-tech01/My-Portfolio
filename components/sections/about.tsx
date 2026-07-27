@@ -30,7 +30,7 @@ const stats = [
   { value: '10+', label: 'Projects Built' },
   { value: '8+', label: 'Technologies' },
   { value: '500+', label: 'DSA Problems' },
-  { value: '2026', label: 'Graduating' },
+  { value: '2027', label: 'Graduating' },
 ]
 
 export function About() {
